@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "name": "hobes-solution",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "scripts": {
+    "client": "npm start --prefix frontend",
+    "server":"nodemon server.js --prefix backend",
+    "dev":"npm run client & npm run server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codesonu1/reant-a-book.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codesonu1/reant-a-book/issues"
+  },
+  "homepage": "https://github.com/codesonu1/reant-a-book#readme",
+  "description": ""
+}
