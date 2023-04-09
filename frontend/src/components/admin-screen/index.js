@@ -46,8 +46,8 @@ const Index = () => {
           logout
         </p>
       </div>
-      <div className=" mx-3  flex gap-5  border-[1px] border-[black] ">
-        <div className="lg:w-[500px] md:[300px] h-full border-[1px] border-[black] border-l-white border-y-white">
+      <div className=" mx-3  grid grid-flow-row grid-cols-2 gap-5  border-[1px] border-[black]">
+        <div className="lg:w-[100%] md:w-[100%] h-full border-[1px] border-[black] border-l-white border-y-white text-center">
           <div className="m-4">
             <p className="uppercase text-[1.5rem] border-1 border-[black]  border text-center p-2 bg-blue-400 my-2 font-400">
               book rental system
@@ -74,7 +74,7 @@ const Index = () => {
                     className=" border-1 border-[black]  border  py-2 text-[1.2rem] px-2 my-2 capitalize hover:bg-slate-500 cursor-pointer"
                     onClick={authSetup}
                   >
-                    Auth Setup
+                    Author Setup
                   </p>
                   <p
                     className=" border-1 border-[black]  border  py-2 text-[1.2rem] px-2 my-2 capitalize hover:bg-slate-500 cursor-pointer"

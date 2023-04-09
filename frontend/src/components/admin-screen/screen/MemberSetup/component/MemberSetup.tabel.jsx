@@ -93,7 +93,7 @@ export default function MemberSetupTable() {
 
   return (
     <Paper sx={{ overflow: "hidden" }} className="lg:w-[100%] md:w-[395px]">
-      <TableContainer sx={{ maxHeight: 250, maxWidth: "100%" }}>
+      <TableContainer sx={{ maxHeight: 270, maxWidth: "100%" }}>
         <Table stickyHeader aria-label="sticky table">
           <TableHead>
             <TableRow>

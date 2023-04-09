@@ -118,7 +118,7 @@ export default function BookSetupTable() {
       sx={{ overflow: "hidden", overflowX: "none" }}
       className="lg:w-full md:w-[395px]"
     >
-      <TableContainer sx={{ maxHeight: 250, maxWidth: "50%" }}>
+      <TableContainer sx={{ maxHeight: 270, maxWidth: "100%" }}>
         <Table stickyHeader aria-label="sticky table">
           <TableHead>
             <TableRow>

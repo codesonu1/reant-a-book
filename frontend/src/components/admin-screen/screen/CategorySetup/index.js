@@ -16,7 +16,7 @@ const Index = () => {
       </p>
       <div className=" flex justify-end my-3 ">
         <p
-          className="border-[1px] border-black  cursor-pointer  py-3 rounded-md text-center font-semibold text-[1.2rem] w-[150px]"
+          className="border-[1px] border-black  cursor-pointer  py-3 rounded-md text-center font-semibold text-[1.2rem] w-[150px] mx-2"
           onClick={open}
         >
           Create
